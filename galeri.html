@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeri Bon Jovi</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ec0303ce;
+}
+
+.header {
+  background: #030303;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.header img {
+ width: 75px;
+ margin-right: 10px;
+ vertical-align: middle;
+}
+
+.container {
+  display: flex;
+  min-height: 70vh;
+}
+
+.sidebar {
+ background: #ffffff;
+ width: 25%;
+ padding: 20px;
+ box-shadow:  2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar li a{
+color: #000000;
+text-decoration: none;
+}
+
+.sidebar li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ffffffce;
+  cursor: pointer;
+}
+
+.sidebar li:hover, .sidebar li a:hover {
+  color: #000000ce;
+  font-weight: bold;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.footer {
+background-color: #020202;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 15px;
+}
+
+.highlight {
+  background: #f0f0f0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid #ec0303ce;
+}
+    .gallery img {
+      width: 250px;
+      height: 170px;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .gallery img:hover {
+      transform:scale(1.07);
+    box-shadow: 11px 12px 53px -13px rgba(0,0,0,0.84);
+-webkit-box-shadow: 11px 12px 53px -13px rgba(0,0,0,0.84);
+-moz-box-shadow: 11px 12px 53px -13px rgba(0,0,0,0.84);
+      filter: brightness(1.1);
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="bonjovi.png" alt="Logo Band Bon Jovi" />
+    <span><strong>BonJovi FanPage</strong></span>
+  </div>
+
+  <div class="container">
+    <div class="sidebar">
+      <h3>Navigasi</h3>
+      <ul>
+        <li><a href="bonjovi.html">Beranda</a></li>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="sejarahband.html">Sejarah Band</a></li>
+        <li><a href="listlagu.html">List Lagu</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h3>Galeri Foto Bon Jovi</h3>
+      <div class="gallery">
+        <img src="bonjovi1.jpg" alt="Bon Jovi Live 1" />
+        <img src="https://www.wowkeren.com/images/events/ori/2012/01/11/bon-jovi-photoshoot-album-the-circle-01.jpg" alt="Bon Jovi Live 2" />
+        <img src="https://www.wowkeren.com/images/events/ori/2012/01/11/bon-jovi-photoshoot-album-the-circle-06.jpg" alt="Bon Jovi Live 3" />
+        <img src="https://www.wowkeren.com/images/events/ori/2012/01/11/bon-jovi-photoshoot-album-the-circle-05.jpg" alt="Bon Jovi" />
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>@ 2025 Bon Jovi Fan Page - Tidak berafiliasi resmi dengan Bon Jovi</p>
+  </div>
+</body>
+</html>
